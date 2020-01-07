@@ -107,7 +107,6 @@ analytics:
 # Site Author
 author:
   name             : "My blog"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "This blog is for learning new programming languages."
   email            :
   links:
