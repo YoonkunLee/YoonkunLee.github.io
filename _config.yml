@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Yoonkun's Blog!"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Yoonkun Lee"
+description              : "This blog is for learning new programming languages"
 url                      : "https://yoonkunlee.github.io" #the base hostname & protocol for your site e.g. 
 baseurl                  : ""
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
