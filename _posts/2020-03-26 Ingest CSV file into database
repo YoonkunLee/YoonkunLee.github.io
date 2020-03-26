@@ -1,0 +1,27 @@
+---
+title: "Ingest CSV file data to mysql database"
+date: 2020-03-26
+categories: Programming study 
+---
+
+1. Create table into mysql database 
+  -Table column needs to be same format as CSV file 
+  
+  CREATE TABLE discounts(
+	    id INT NOT NULL AUTO_INCREMENT,
+	    title VARCHAR(255) NOT NULL,
+	    expired_date DATE NOT NULL,
+	    amount DECIMAL(10 , 2) NULL,
+	    PRIMARY KEY(id)
+	);
+  
+2. Load CSV file from local 
+  
+  LOAD DATA INFILE 'C:/Users/Desktop/discount.csv'
+	INTO TABLE discounts
+	FIELDS TERMINATED BY ','
+	ENCLOSED BY '"'
+	LINES TERMINATED BY '\n'
+	IGNORE 1 ROWS;
+  
+  
